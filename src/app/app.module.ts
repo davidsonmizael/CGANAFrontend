@@ -15,6 +15,9 @@ import { MatInputModule } from '@angular/material/input';
 import { MatButtonModule } from '@angular/material/button';
 import { MatIconModule } from '@angular/material/icon';
 import { MatProgressSpinnerModule } from '@angular/material/progress-spinner';
+import { HomeComponent } from './home/home.component';
+import { SubmitFormComponent } from './submit-form/submit-form.component';
+import { AdminComponent } from './admin/admin.component';
 
 @NgModule({
   declarations: [
@@ -22,7 +25,10 @@ import { MatProgressSpinnerModule } from '@angular/material/progress-spinner';
     ImageProcComponent,
     HeaderComponent,
     DrawCanvasComponent,
-    InputImageComponent
+    InputImageComponent,
+    HomeComponent,
+    SubmitFormComponent,
+    AdminComponent
   ],
   imports: [
     BrowserModule,

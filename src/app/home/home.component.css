@@ -1,0 +1,82 @@
+.large-box {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 16px;
+    padding: 16px;
+    border-radius: 8px;
+    height: 400px;
+    width: 300px;
+    min-height: 400px;
+    min-width: 300px;
+    background-color: rgba(255, 255, 255, 0.05);
+  }
+  
+  .content{
+    display: block;
+    margin: 0 auto;
+    max-width: 1300px;
+    padding: 16px;
+  }
+  
+  .submit-button{
+    display: block;
+  }
+  
+  .clear-button{
+    display: block;
+  }
+
+  .edit-button{
+    display: block;
+  }
+    
+  .flex {
+    display: flex;
+  }
+  
+  .flex-wrap {
+    flex-wrap: wrap;
+  }
+  
+  .flex-center {
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .buttons {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+  }
+  
+  .header-text {
+    text-align: center;
+  }
+  
+  .padding-24 {
+    padding: 24px;
+  }
+  
+  .buttons, .clear-button, .edit-button{
+    margin-top: 24px;
+    margin-left: 0;
+  }
+
+ 
+  @media (max-width: 847px) {
+    .buttons {
+      flex: 0 0 100%;
+      flex-direction: row;
+    }
+    .buttons, .clear-button, .edit-button{
+      margin-top: 0;
+      margin-left: 24px;
+    }
+  }
+  
+  .home-card {
+    min-height: 350px;
+    max-width: 400px;
+  }

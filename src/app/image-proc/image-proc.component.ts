@@ -9,6 +9,8 @@ export class ImageProcComponent implements OnInit {
 
   constructor() { }
 
+  public selectedIndex = 1;
+
   ngOnInit(): void {
   }
 
