@@ -83,3 +83,7 @@ canvas {
     margin-left: 24px;
   }
 }
+
+canvas {
+  touch-action: none;
+}

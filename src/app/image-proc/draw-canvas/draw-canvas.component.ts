@@ -105,7 +105,7 @@ export class DrawCanvasComponent implements AfterViewInit {
         this.drawOnCanvas(prevPos, currentPos);
       });
 
-      fromEvent(canvasEl, 'touchstart')
+    fromEvent(canvasEl, 'touchstart')
     .pipe(
       switchMap(() => {
         return fromEvent(canvasEl, 'touchmove')
@@ -117,7 +117,6 @@ export class DrawCanvasComponent implements AfterViewInit {
       })
     ).subscribe((res: [TouchEvent, TouchEvent]) => {
         const rect = canvasEl.getBoundingClientRect();
-        
         const prevPos = {
           x: res[0].touches[0].clientX - rect.left,
           y: res[0].touches[0].clientY - rect.top
